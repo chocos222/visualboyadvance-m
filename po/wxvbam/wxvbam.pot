@@ -299,50 +299,50 @@ msgstr ""
 msgid "Main display panel not found"
 msgstr ""
 
-#: guiinit.cpp:2897
+#: guiinit.cpp:2902
 #, c-format
 msgid "Duplicate menu accelerator: %s for %s and %s; keeping first"
 msgstr ""
 
-#: guiinit.cpp:2911
+#: guiinit.cpp:2916
 #, c-format
 msgid "Menu accelerator %s for %s overrides default for %s ; keeping menu"
 msgstr ""
 
-#: guiinit.cpp:3041
+#: guiinit.cpp:3046
 #, c-format
 msgid "Invalid menu item %s; removing"
 msgstr ""
 
-#: guiinit.cpp:3242
+#: guiinit.cpp:3247
 msgid "Code"
 msgstr ""
 
-#: guiinit.cpp:3251
+#: guiinit.cpp:3256
 msgid "Description"
 msgstr ""
 
-#: guiinit.cpp:3325 xrc/CheatAdd.xrc:31
+#: guiinit.cpp:3330 xrc/CheatAdd.xrc:31
 msgid "Address"
 msgstr ""
 
-#: guiinit.cpp:3326
+#: guiinit.cpp:3331
 msgid "Old Value"
 msgstr ""
 
-#: guiinit.cpp:3327
+#: guiinit.cpp:3332
 msgid "New Value"
 msgstr ""
 
-#: guiinit.cpp:3847
+#: guiinit.cpp:3852
 msgid "Menu commands"
 msgstr ""
 
-#: guiinit.cpp:3870
+#: guiinit.cpp:3875
 msgid "Other commands"
 msgstr ""
 
-#: guiinit.cpp:3981
+#: guiinit.cpp:3986
 msgid "JoyBus host invalid; disabling"
 msgstr ""
 
@@ -350,8 +350,9 @@ msgstr ""
 msgid "Text files (*.txt;*.log)|*.txt;*.log|"
 msgstr ""
 
-#: viewers.cpp:562 viewers.cpp:772 cmdevents.cpp:1158 cmdevents.cpp:1236
-#: cmdevents.cpp:1306 cmdevents.cpp:1333 viewsupt.cpp:1168
+#: viewers.cpp:562 viewers.cpp:772 gfxviewers.cpp:1600 gfxviewers.cpp:1742
+#: cmdevents.cpp:1158 cmdevents.cpp:1236 cmdevents.cpp:1306 cmdevents.cpp:1333
+#: viewsupt.cpp:1168
 msgid "Select output file"
 msgstr ""
 
@@ -435,6 +436,10 @@ msgstr ""
 msgid ""
 "Windows Palette (*.pal)|*.pal|PaintShop Palette (*.pal)|*.pal|Adobe Color "
 "Table (*.act)|*.act"
+msgstr ""
+
+#: gfxviewers.cpp:1601 gfxviewers.cpp:1743 cmdevents.cpp:1159 viewsupt.cpp:1169
+msgid "PNG images|*.png|BMP images|*.bmp"
 msgstr ""
 
 #: cmdevents.cpp:105
@@ -717,10 +722,6 @@ msgstr ""
 msgid "Error saving snapshot file %s"
 msgstr ""
 
-#: cmdevents.cpp:1159 viewsupt.cpp:1169
-msgid "PNG images|*.png|BMP images|*.bmp"
-msgstr ""
-
 #: cmdevents.cpp:1183 sys.cpp:442
 #, c-format
 msgid "Wrote snapshot %s"
@@ -827,35 +828,35 @@ msgid ""
 "along with this program.  If not, see http://www.gnu.org/licenses ."
 msgstr ""
 
-#: cmdevents.cpp:3027
+#: cmdevents.cpp:3040
 msgid "LAN link is already active.  Disable link mode to disconnect."
 msgstr ""
 
-#: cmdevents.cpp:3033
+#: cmdevents.cpp:3046
 msgid "Network is not supported in local mode."
 msgstr ""
 
-#: opts.cpp:550 opts.cpp:855
+#: opts.cpp:552 opts.cpp:857
 #, c-format
 msgid "Invalid value %s for option %s; valid values are %s%s%s"
 msgstr ""
 
-#: opts.cpp:567 opts.cpp:867
+#: opts.cpp:569 opts.cpp:869
 #, c-format
 msgid "Invalid value %d for option %s; valid values are %d - %d"
 msgstr ""
 
-#: opts.cpp:574 opts.cpp:583 opts.cpp:875 opts.cpp:883
+#: opts.cpp:576 opts.cpp:585 opts.cpp:877 opts.cpp:885
 #, c-format
 msgid "Invalid value %f for option %s; valid values are %f - %f"
 msgstr ""
 
-#: opts.cpp:643 opts.cpp:664 opts.cpp:952 opts.cpp:978
+#: opts.cpp:645 opts.cpp:666 opts.cpp:954 opts.cpp:980
 #, c-format
 msgid "Invalid key binding %s for %s"
 msgstr ""
 
-#: opts.cpp:838
+#: opts.cpp:840
 #, c-format
 msgid "Invalid flag option %s - %s ignored"
 msgstr ""
@@ -1008,54 +1009,54 @@ msgstr ""
 msgid "Failed to change mode to %dx%d-%d@%d"
 msgstr ""
 
-#: panel.cpp:977
+#: panel.cpp:981
 msgid "Not a valid GBA cartridge"
 msgstr ""
 
-#: panel.cpp:1120
+#: panel.cpp:1126
 msgid "No memory for rewinding"
 msgstr ""
 
-#: panel.cpp:1130
+#: panel.cpp:1136
 msgid "Error writing rewind state"
 msgstr ""
 
-#: panel.cpp:2341
+#: panel.cpp:2347
 msgid "memory allocation error"
 msgstr ""
 
-#: panel.cpp:2344
+#: panel.cpp:2350
 msgid "error initializing codec"
 msgstr ""
 
-#: panel.cpp:2347
+#: panel.cpp:2353
 msgid "error writing to output file"
 msgstr ""
 
-#: panel.cpp:2350
+#: panel.cpp:2356
 msgid "can't guess output format from file name"
 msgstr ""
 
-#: panel.cpp:2355
+#: panel.cpp:2361
 msgid "programming error; aborting!"
 msgstr ""
 
-#: panel.cpp:2372 panel.cpp:2403
+#: panel.cpp:2378 panel.cpp:2409
 #, c-format
 msgid "Unable to begin recording to %s (%s)"
 msgstr ""
 
-#: panel.cpp:2431
+#: panel.cpp:2437
 #, c-format
 msgid "Error in audio/video recording (%s); aborting"
 msgstr ""
 
-#: panel.cpp:2437
+#: panel.cpp:2443
 #, c-format
 msgid "Error in audio recording (%s); aborting"
 msgstr ""
 
-#: panel.cpp:2447
+#: panel.cpp:2453
 #, c-format
 msgid "Error in video recording (%s); aborting"
 msgstr ""
@@ -2997,7 +2998,7 @@ msgstr ""
 msgid "&GameCube"
 msgstr ""
 
-#: xrc/MainMenu.xrc:293 xrc/MainMenu.xrc:513
+#: xrc/MainMenu.xrc:293 xrc/MainMenu.xrc:517
 msgid "&Game Boy"
 msgstr ""
 
@@ -3154,7 +3155,7 @@ msgstr ""
 msgid "&Game Boy Advance"
 msgstr ""
 
-#: xrc/MainMenu.xrc:496 xrc/MainMenu.xrc:515
+#: xrc/MainMenu.xrc:496 xrc/MainMenu.xrc:519
 msgid "Configure ..."
 msgstr ""
 
@@ -3170,211 +3171,219 @@ msgstr ""
 msgid "&Debug print"
 msgstr ""
 
-#: xrc/MainMenu.xrc:519
-msgid "&GB printer"
+#: xrc/MainMenu.xrc:512
+msgid "&LCD Filter"
 msgstr ""
 
 #: xrc/MainMenu.xrc:523
-msgid "&Gather a full page before printing"
+msgid "&GB color option"
 msgstr ""
 
 #: xrc/MainMenu.xrc:527
+msgid "&GB printer"
+msgstr ""
+
+#: xrc/MainMenu.xrc:531
+msgid "&Gather a full page before printing"
+msgstr ""
+
+#: xrc/MainMenu.xrc:535
 msgid "&Save printouts as screen captures"
 msgstr ""
 
-#: xrc/MainMenu.xrc:532
+#: xrc/MainMenu.xrc:540
 msgid "&Use GB BIOS file"
 msgstr ""
 
-#: xrc/MainMenu.xrc:536
+#: xrc/MainMenu.xrc:544
 msgid "&Use GBC BIOS file"
 msgstr ""
 
-#: xrc/MainMenu.xrc:541
+#: xrc/MainMenu.xrc:549
 msgid "&General ..."
 msgstr ""
 
-#: xrc/MainMenu.xrc:544
+#: xrc/MainMenu.xrc:552
 msgid "&Speedup / Turbo ..."
 msgstr ""
 
-#: xrc/MainMenu.xrc:547
+#: xrc/MainMenu.xrc:555
 msgid "D&irectories ..."
 msgstr ""
 
-#: xrc/MainMenu.xrc:550
+#: xrc/MainMenu.xrc:558
 msgid "&Key Shortcuts ..."
 msgstr ""
 
-#: xrc/MainMenu.xrc:554
+#: xrc/MainMenu.xrc:562
 msgid "&Tools"
 msgstr ""
 
-#: xrc/MainMenu.xrc:556
+#: xrc/MainMenu.xrc:564
 msgid "&Cheats"
 msgstr ""
 
-#: xrc/MainMenu.xrc:558
+#: xrc/MainMenu.xrc:566
 msgid "List &cheats ..."
 msgstr ""
 
-#: xrc/MainMenu.xrc:561
+#: xrc/MainMenu.xrc:569
 msgid "Find c&heat ..."
 msgstr ""
 
-#: xrc/MainMenu.xrc:565
+#: xrc/MainMenu.xrc:573
 msgid "A&utomatically save/load cheats"
 msgstr ""
 
-#: xrc/MainMenu.xrc:569
+#: xrc/MainMenu.xrc:577
 msgid "&Enable cheats"
 msgstr ""
 
-#: xrc/MainMenu.xrc:576
+#: xrc/MainMenu.xrc:584
 msgid "&Break into GDB"
 msgstr ""
 
-#: xrc/MainMenu.xrc:580
+#: xrc/MainMenu.xrc:588
 msgid "&Configure port..."
 msgstr ""
 
-#: xrc/MainMenu.xrc:583
+#: xrc/MainMenu.xrc:591
 msgid "&Break on load"
 msgstr ""
 
-#: xrc/MainMenu.xrc:588
+#: xrc/MainMenu.xrc:596
 msgid "&Disconnect"
 msgstr ""
 
-#: xrc/MainMenu.xrc:590
+#: xrc/MainMenu.xrc:598
 msgid "&GDB"
 msgstr ""
 
-#: xrc/MainMenu.xrc:593
+#: xrc/MainMenu.xrc:601
 msgid "&Disassemble..."
 msgstr ""
 
-#: xrc/MainMenu.xrc:596
+#: xrc/MainMenu.xrc:604
 msgid "&Logging..."
 msgstr ""
 
-#: xrc/MainMenu.xrc:599
+#: xrc/MainMenu.xrc:607
 msgid "&IO Viewer..."
 msgstr ""
 
-#: xrc/MainMenu.xrc:602
+#: xrc/MainMenu.xrc:610
 msgid "&Map Viewer..."
 msgstr ""
 
-#: xrc/MainMenu.xrc:605
+#: xrc/MainMenu.xrc:613
 msgid "M&emory Viewer..."
 msgstr ""
 
-#: xrc/MainMenu.xrc:608
+#: xrc/MainMenu.xrc:616
 msgid "&OAM Viewer..."
 msgstr ""
 
-#: xrc/MainMenu.xrc:611
+#: xrc/MainMenu.xrc:619
 msgid "&Palette Viewer..."
 msgstr ""
 
-#: xrc/MainMenu.xrc:614
+#: xrc/MainMenu.xrc:622
 msgid "&Tile Viewer..."
 msgstr ""
 
-#: xrc/MainMenu.xrc:619
+#: xrc/MainMenu.xrc:627
 msgid "Show all video layers"
 msgstr ""
 
-#: xrc/MainMenu.xrc:623
+#: xrc/MainMenu.xrc:631
 msgid "BG &0"
 msgstr ""
 
-#: xrc/MainMenu.xrc:628
+#: xrc/MainMenu.xrc:636
 msgid "BG &1"
 msgstr ""
 
-#: xrc/MainMenu.xrc:633
+#: xrc/MainMenu.xrc:641
 msgid "BG &2"
 msgstr ""
 
-#: xrc/MainMenu.xrc:638
+#: xrc/MainMenu.xrc:646
 msgid "BG &3"
 msgstr ""
 
-#: xrc/MainMenu.xrc:643
+#: xrc/MainMenu.xrc:651
 msgid "&OBJ"
 msgstr ""
 
-#: xrc/MainMenu.xrc:648
+#: xrc/MainMenu.xrc:656
 msgid "&WIN 0"
 msgstr ""
 
-#: xrc/MainMenu.xrc:653
+#: xrc/MainMenu.xrc:661
 msgid "W&IN 1"
 msgstr ""
 
-#: xrc/MainMenu.xrc:658
+#: xrc/MainMenu.xrc:666
 msgid "O&BJ WIN"
 msgstr ""
 
-#: xrc/MainMenu.xrc:662
+#: xrc/MainMenu.xrc:670
 msgid "&View Layers"
 msgstr ""
 
-#: xrc/MainMenu.xrc:666
+#: xrc/MainMenu.xrc:674
 msgid "Channel &1"
 msgstr ""
 
-#: xrc/MainMenu.xrc:671
+#: xrc/MainMenu.xrc:679
 msgid "Channel &2"
 msgstr ""
 
-#: xrc/MainMenu.xrc:676
+#: xrc/MainMenu.xrc:684
 msgid "Channel &3"
 msgstr ""
 
-#: xrc/MainMenu.xrc:681
+#: xrc/MainMenu.xrc:689
 msgid "Channel &4"
 msgstr ""
 
-#: xrc/MainMenu.xrc:686
+#: xrc/MainMenu.xrc:694
 msgid "Direct Sound &A"
 msgstr ""
 
-#: xrc/MainMenu.xrc:691
+#: xrc/MainMenu.xrc:699
 msgid "Direct Sound &B"
 msgstr ""
 
-#: xrc/MainMenu.xrc:695
+#: xrc/MainMenu.xrc:703
 msgid "&Sound Channels"
 msgstr ""
 
-#: xrc/MainMenu.xrc:699
+#: xrc/MainMenu.xrc:707
 msgid "&Help"
 msgstr ""
 
-#: xrc/MainMenu.xrc:701
+#: xrc/MainMenu.xrc:709
 msgid "Report &Bugs"
 msgstr ""
 
-#: xrc/MainMenu.xrc:704
+#: xrc/MainMenu.xrc:712
 msgid "VBA-M Support &Forum"
 msgstr ""
 
-#: xrc/MainMenu.xrc:707
+#: xrc/MainMenu.xrc:715
 msgid "Translations"
 msgstr ""
 
-#: xrc/MainMenu.xrc:715
+#: xrc/MainMenu.xrc:723
 msgid "Check for updates"
 msgstr ""
 
-#: xrc/MainMenu.xrc:718
+#: xrc/MainMenu.xrc:726
 msgid "&Factory Reset..."
 msgstr ""
 
-#: xrc/MainMenu.xrc:722
+#: xrc/MainMenu.xrc:730
 msgid "&About..."
 msgstr ""
 
