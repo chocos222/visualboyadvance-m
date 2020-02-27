@@ -4918,7 +4918,7 @@ void gbEmulate(int ticksToStop)
                     static uint32_t last_throttle;
 
                     if ((gbJoymask[0] >> 10) & 1) {
-                        if (speedup_throttle != 0) {
+                        if (speedup_throttle != 100) {
                             if (!speedup_throttle_set && throttle != speedup_throttle) {
                                 last_throttle = throttle;
                                 throttle = speedup_throttle;
@@ -5003,7 +5003,7 @@ void gbEmulate(int ticksToStop)
                             speedup = false;
 
 #ifndef __LIBRETRO__
-                            if (newmask & 1 && speedup_throttle == 0)
+                            if (newmask & 1 || speedup_throttle == 0)
 #else
                             if (newmask & 1)
 #endif

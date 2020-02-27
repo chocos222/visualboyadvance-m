@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-24 20:58+0000\n"
+"POT-Creation-Date: 2020-02-27 17:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -257,8 +257,7 @@ msgstr ""
 #: guiinit.cpp:1841 cmdevents.cpp:746 xrc/DisplayConfig.xrc:85
 #: xrc/DisplayConfig.xrc:135 xrc/DisplayConfig.xrc:221
 #: xrc/GameBoyAdvanceConfig.xrc:32 xrc/GameBoyAdvanceConfig.xrc:204
-#: xrc/GeneralConfig.xrc:114 xrc/SoundConfig.xrc:219 xrc/SoundConfig.xrc:309
-#: xrc/SpeedupConfig.xrc:45 xrc/SpeedupConfig.xrc:120
+#: xrc/SoundConfig.xrc:219 xrc/SoundConfig.xrc:309 xrc/SpeedupConfig.xrc:45
 msgid "None"
 msgstr ""
 
@@ -2345,7 +2344,7 @@ msgstr ""
 msgid "&Throttle"
 msgstr ""
 
-#: xrc/GeneralConfig.xrc:96 xrc/SpeedupConfig.xrc:27
+#: xrc/GeneralConfig.xrc:96 xrc/SpeedupConfig.xrc:108
 #, c-format
 msgid "% of normal:"
 msgstr ""
@@ -2354,99 +2353,103 @@ msgstr ""
 msgid "0 = no throttle"
 msgstr ""
 
-#: xrc/GeneralConfig.xrc:115 xrc/SpeedupConfig.xrc:46
+#: xrc/GeneralConfig.xrc:114 xrc/SpeedupConfig.xrc:126
+msgid "Full Speed/No Limit"
+msgstr ""
+
+#: xrc/GeneralConfig.xrc:115 xrc/SpeedupConfig.xrc:127
 msgid "25%"
 msgstr ""
 
-#: xrc/GeneralConfig.xrc:116 xrc/SpeedupConfig.xrc:47
+#: xrc/GeneralConfig.xrc:116 xrc/SpeedupConfig.xrc:128
 msgid "50%"
 msgstr ""
 
-#: xrc/GeneralConfig.xrc:117 xrc/SpeedupConfig.xrc:48
+#: xrc/GeneralConfig.xrc:117 xrc/SpeedupConfig.xrc:129
 msgid "75%"
 msgstr ""
 
-#: xrc/GeneralConfig.xrc:118 xrc/SoundConfig.xrc:45 xrc/SpeedupConfig.xrc:49
+#: xrc/GeneralConfig.xrc:118 xrc/SoundConfig.xrc:45 xrc/SpeedupConfig.xrc:130
 msgid "100%"
 msgstr ""
 
-#: xrc/GeneralConfig.xrc:119 xrc/SpeedupConfig.xrc:50
+#: xrc/GeneralConfig.xrc:119 xrc/SpeedupConfig.xrc:131
 msgid "125%"
 msgstr ""
 
-#: xrc/GeneralConfig.xrc:120 xrc/SpeedupConfig.xrc:51
+#: xrc/GeneralConfig.xrc:120 xrc/SpeedupConfig.xrc:132
 msgid "150%"
 msgstr ""
 
-#: xrc/GeneralConfig.xrc:121 xrc/SpeedupConfig.xrc:52
+#: xrc/GeneralConfig.xrc:121 xrc/SpeedupConfig.xrc:133
 msgid "175%"
 msgstr ""
 
-#: xrc/GeneralConfig.xrc:122 xrc/SpeedupConfig.xrc:53
+#: xrc/GeneralConfig.xrc:122 xrc/SpeedupConfig.xrc:134
 msgid "200%"
 msgstr ""
 
-#: xrc/GeneralConfig.xrc:123 xrc/SpeedupConfig.xrc:54
+#: xrc/GeneralConfig.xrc:123 xrc/SpeedupConfig.xrc:135
 msgid "225%"
 msgstr ""
 
-#: xrc/GeneralConfig.xrc:124 xrc/SpeedupConfig.xrc:55
+#: xrc/GeneralConfig.xrc:124 xrc/SpeedupConfig.xrc:136
 msgid "250%"
 msgstr ""
 
-#: xrc/GeneralConfig.xrc:125 xrc/SpeedupConfig.xrc:56
+#: xrc/GeneralConfig.xrc:125 xrc/SpeedupConfig.xrc:137
 msgid "275%"
 msgstr ""
 
-#: xrc/GeneralConfig.xrc:126 xrc/SpeedupConfig.xrc:57
+#: xrc/GeneralConfig.xrc:126 xrc/SpeedupConfig.xrc:138
 msgid "300%"
 msgstr ""
 
-#: xrc/GeneralConfig.xrc:127 xrc/SpeedupConfig.xrc:58
+#: xrc/GeneralConfig.xrc:127 xrc/SpeedupConfig.xrc:139
 msgid "325%"
 msgstr ""
 
-#: xrc/GeneralConfig.xrc:128 xrc/SpeedupConfig.xrc:59
+#: xrc/GeneralConfig.xrc:128 xrc/SpeedupConfig.xrc:140
 msgid "350%"
 msgstr ""
 
-#: xrc/GeneralConfig.xrc:129 xrc/SpeedupConfig.xrc:60
+#: xrc/GeneralConfig.xrc:129 xrc/SpeedupConfig.xrc:141
 msgid "375%"
 msgstr ""
 
-#: xrc/GeneralConfig.xrc:130 xrc/SpeedupConfig.xrc:61
+#: xrc/GeneralConfig.xrc:130 xrc/SpeedupConfig.xrc:142
 msgid "400%"
 msgstr ""
 
-#: xrc/GeneralConfig.xrc:131 xrc/SpeedupConfig.xrc:62
+#: xrc/GeneralConfig.xrc:131 xrc/SpeedupConfig.xrc:143
 msgid "425%"
 msgstr ""
 
-#: xrc/GeneralConfig.xrc:132 xrc/SpeedupConfig.xrc:63
+#: xrc/GeneralConfig.xrc:132 xrc/SpeedupConfig.xrc:144
 msgid "450%"
 msgstr ""
 
-#: xrc/GeneralConfig.xrc:133 xrc/SpeedupConfig.xrc:64
+#: xrc/GeneralConfig.xrc:133 xrc/SpeedupConfig.xrc:145
 msgid "475%"
 msgstr ""
 
-#: xrc/GeneralConfig.xrc:134 xrc/SpeedupConfig.xrc:65
+#: xrc/GeneralConfig.xrc:134 xrc/SpeedupConfig.xrc:146
 msgid "500%"
 msgstr ""
 
-#: xrc/GeneralConfig.xrc:135 xrc/SpeedupConfig.xrc:66
+#: xrc/GeneralConfig.xrc:135 xrc/SpeedupConfig.xrc:147
 msgid "525%"
 msgstr ""
 
-#: xrc/GeneralConfig.xrc:136 xrc/SpeedupConfig.xrc:67
+#: xrc/GeneralConfig.xrc:136 xrc/SpeedupConfig.xrc:148
 msgid "550%"
 msgstr ""
 
-#: xrc/GeneralConfig.xrc:137 xrc/SpeedupConfig.xrc:68
+#: xrc/GeneralConfig.xrc:137 xrc/SpeedupConfig.xrc:149
 msgid "575%"
 msgstr ""
 
-#: xrc/GeneralConfig.xrc:138 xrc/SpeedupConfig.xrc:69
+#: xrc/GeneralConfig.xrc:138 xrc/SpeedupConfig.xrc:150
 msgid "600%"
 msgstr ""
 
@@ -3474,15 +3477,15 @@ msgstr ""
 msgid "Players:"
 msgstr ""
 
-#: xrc/NetLink.xrc:41 xrc/SpeedupConfig.xrc:122
+#: xrc/NetLink.xrc:41 xrc/SpeedupConfig.xrc:47
 msgid "2"
 msgstr ""
 
-#: xrc/NetLink.xrc:49 xrc/SpeedupConfig.xrc:123
+#: xrc/NetLink.xrc:49 xrc/SpeedupConfig.xrc:48
 msgid "3"
 msgstr ""
 
-#: xrc/NetLink.xrc:56 xrc/SpeedupConfig.xrc:124
+#: xrc/NetLink.xrc:56 xrc/SpeedupConfig.xrc:49
 msgid "4"
 msgstr ""
 
@@ -3651,121 +3654,121 @@ msgid "SpeedUp / Turbo Settings"
 msgstr ""
 
 #: xrc/SpeedupConfig.xrc:9
-msgid "Speedup Throttle"
-msgstr ""
-
-#: xrc/SpeedupConfig.xrc:84
 msgid "Speedup Frame Skip"
 msgstr ""
 
-#: xrc/SpeedupConfig.xrc:102
+#: xrc/SpeedupConfig.xrc:27
 msgid "# of frames:"
 msgstr ""
 
-#: xrc/SpeedupConfig.xrc:121
+#: xrc/SpeedupConfig.xrc:46
 msgid "1"
 msgstr ""
 
-#: xrc/SpeedupConfig.xrc:125
+#: xrc/SpeedupConfig.xrc:50
 msgid "5"
 msgstr ""
 
-#: xrc/SpeedupConfig.xrc:126
+#: xrc/SpeedupConfig.xrc:51
 msgid "6"
 msgstr ""
 
-#: xrc/SpeedupConfig.xrc:127
+#: xrc/SpeedupConfig.xrc:52
 msgid "7"
 msgstr ""
 
-#: xrc/SpeedupConfig.xrc:128
+#: xrc/SpeedupConfig.xrc:53
 msgid "8"
 msgstr ""
 
-#: xrc/SpeedupConfig.xrc:129
+#: xrc/SpeedupConfig.xrc:54
 msgid "9"
 msgstr ""
 
-#: xrc/SpeedupConfig.xrc:130
+#: xrc/SpeedupConfig.xrc:55
 msgid "10"
 msgstr ""
 
-#: xrc/SpeedupConfig.xrc:131
+#: xrc/SpeedupConfig.xrc:56
 msgid "11"
 msgstr ""
 
-#: xrc/SpeedupConfig.xrc:132
+#: xrc/SpeedupConfig.xrc:57
 msgid "12"
 msgstr ""
 
-#: xrc/SpeedupConfig.xrc:133
+#: xrc/SpeedupConfig.xrc:58
 msgid "13"
 msgstr ""
 
-#: xrc/SpeedupConfig.xrc:134
+#: xrc/SpeedupConfig.xrc:59
 msgid "14"
 msgstr ""
 
-#: xrc/SpeedupConfig.xrc:135
+#: xrc/SpeedupConfig.xrc:60
 msgid "15"
 msgstr ""
 
-#: xrc/SpeedupConfig.xrc:136
+#: xrc/SpeedupConfig.xrc:61
 msgid "16"
 msgstr ""
 
-#: xrc/SpeedupConfig.xrc:137
+#: xrc/SpeedupConfig.xrc:62
 msgid "17"
 msgstr ""
 
-#: xrc/SpeedupConfig.xrc:138
+#: xrc/SpeedupConfig.xrc:63
 msgid "18"
 msgstr ""
 
-#: xrc/SpeedupConfig.xrc:139
+#: xrc/SpeedupConfig.xrc:64
 msgid "19"
 msgstr ""
 
-#: xrc/SpeedupConfig.xrc:140
+#: xrc/SpeedupConfig.xrc:65
 msgid "20"
 msgstr ""
 
-#: xrc/SpeedupConfig.xrc:141
+#: xrc/SpeedupConfig.xrc:66
 msgid "21"
 msgstr ""
 
-#: xrc/SpeedupConfig.xrc:142
+#: xrc/SpeedupConfig.xrc:67
 msgid "22"
 msgstr ""
 
-#: xrc/SpeedupConfig.xrc:143
+#: xrc/SpeedupConfig.xrc:68
 msgid "23"
 msgstr ""
 
-#: xrc/SpeedupConfig.xrc:144
+#: xrc/SpeedupConfig.xrc:69
 msgid "24"
 msgstr ""
 
-#: xrc/SpeedupConfig.xrc:145
+#: xrc/SpeedupConfig.xrc:70
 msgid "25"
 msgstr ""
 
-#: xrc/SpeedupConfig.xrc:146
+#: xrc/SpeedupConfig.xrc:71
 msgid "26"
 msgstr ""
 
-#: xrc/SpeedupConfig.xrc:147
+#: xrc/SpeedupConfig.xrc:72
 msgid "27"
 msgstr ""
 
-#: xrc/SpeedupConfig.xrc:148
+#: xrc/SpeedupConfig.xrc:73
 msgid "28"
 msgstr ""
 
-#: xrc/SpeedupConfig.xrc:149
+#: xrc/SpeedupConfig.xrc:74
 msgid "29"
 msgstr ""
 
-#: xrc/SpeedupConfig.xrc:150
+#: xrc/SpeedupConfig.xrc:75
 msgid "30"
+msgstr ""
+
+#: xrc/SpeedupConfig.xrc:90
+msgid "Speedup Throttle (WARNING: May not work if VSYNC is enabled.)"
 msgstr ""

@@ -2368,14 +2368,14 @@ public:
 
     void DoSetSpeedupThrottleSel(uint32_t val)
     {
-        if (val > 0 && val <= 600) {
+        if (val <= 600 && val != 100) {
             speedup_throttle_sel->SetSelection(std::round((double)val / 25));
             speedup_frame_skip_ctrl.DoSetSpeedupFrameSkipSel(0);
             wxCommandEvent nil;
             speedup_frame_skip_ctrl.SetSpeedupFrameSkip(nil);
         }
         else
-            speedup_throttle_sel->SetSelection(0);
+            speedup_throttle_sel->SetSelection(4);
     }
 
     // set speedup_throttle from speedup_throttle_sel
@@ -2384,14 +2384,14 @@ public:
         (void)evt; // unused params
         uint32_t val = speedup_throttle_sel->GetSelection() * 25;
 
-        if (val > 0 && val <= 600) {
+        if (val <= 600 && val != 100) {
             speedup_throttle_spin->SetValue(val);
             speedup_frame_skip_ctrl.DoSetSpeedupFrameSkipSel(0);
             wxCommandEvent nil;
             speedup_frame_skip_ctrl.SetSpeedupFrameSkip(nil);
         }
         else
-            speedup_throttle_spin->SetValue(0);
+            speedup_throttle_spin->SetValue(100);
     }
 
     void Init(wxShowEvent& ev)
@@ -2412,7 +2412,7 @@ void SpeedupFrameSkipCtrl_t::DoSetSpeedupFrameSkipSel(uint32_t val)
 {
     if (val > 0 && val <= 30) {
         speedup_frame_skip_sel->SetSelection(val);
-        speedup_throttle_ctrl.DoSetSpeedupThrottleSel(0);
+        speedup_throttle_ctrl.DoSetSpeedupThrottleSel(4);
         wxCommandEvent nil;
         speedup_throttle_ctrl.SetSpeedupThrottle(nil);
     }
@@ -2428,7 +2428,7 @@ void SpeedupFrameSkipCtrl_t::SetSpeedupFrameSkip(wxCommandEvent& evt)
 
     if (val > 0 && val <= 30) {
         speedup_frame_skip_spin->SetValue(val);
-        speedup_throttle_ctrl.DoSetSpeedupThrottleSel(0);
+        speedup_throttle_ctrl.DoSetSpeedupThrottleSel(4);
         wxCommandEvent nil;
         speedup_throttle_ctrl.SetSpeedupThrottle(nil);
     }

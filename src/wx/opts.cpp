@@ -677,6 +677,11 @@ void load_opts()
     if (linkTimeout <= 1)
         linkTimeout = 500;
 
+    if (speedup_frame_skip > 0)
+        speedup_throttle = 100;
+    if (speedup_throttle != 100)
+        speedup_frame_skip = 0;
+
     // recent is special
     // Recent does not get written with defaults
     cfg->SetPath(wxT("/Recent"));

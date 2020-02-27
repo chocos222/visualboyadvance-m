@@ -6,81 +6,6 @@
       <orient>wxVERTICAL</orient>
       <object class="sizeritem">
         <object class="wxStaticText">
-          <label>Speedup Throttle</label>
-          <font>
-            <weight>bold</weight>
-          </font>
-        </object>
-        <flag>wxALL</flag>
-        <border>5</border>
-      </object>
-      <object class="sizeritem">
-        <object class="wxBoxSizer">
-          <orient>wxVERTICAL</orient>
-          <object class="sizeritem">
-            <flag>wxALL|wxEXPAND</flag>
-            <border>5</border>
-            <object class="wxBoxSizer">
-              <orient>wxHORIZONTAL</orient>
-              <object class="sizeritem">
-                <object class="wxStaticText">
-                  <label>% of normal:</label>
-                  <size>60,-1d</size>
-                </object>
-                <flag>wxALL|wxALIGN_CENTRE_VERTICAL</flag>
-                <border>5</border>
-              </object>
-              <object class="sizeritem">
-                <object class="wxSpinCtrl" name="SpeedupThrottle">
-                  <value>0</value>
-                  <min>0</min>
-                  <max>600</max>
-                </object>
-                <flag>wxALL|wxALIGN_CENTRE_VERTICAL</flag>
-                <border>5</border>
-              </object>
-              <object class="sizeritem">
-                <object class="wxChoice" name="SpeedupThrottleSel">
-                  <content>
-                    <item>None</item>
-                    <item>25%</item>
-                    <item>50%</item>
-                    <item>75%</item>
-                    <item>100%</item>
-                    <item>125%</item>
-                    <item>150%</item>
-                    <item>175%</item>
-                    <item>200%</item>
-                    <item>225%</item>
-                    <item>250%</item>
-                    <item>275%</item>
-                    <item>300%</item>
-                    <item>325%</item>
-                    <item>350%</item>
-                    <item>375%</item>
-                    <item>400%</item>
-                    <item>425%</item>
-                    <item>450%</item>
-                    <item>475%</item>
-                    <item>500%</item>
-                    <item>525%</item>
-                    <item>550%</item>
-                    <item>575%</item>
-                    <item>600%</item>
-                  </content>
-                  <size>40,-1d</size>
-                </object>
-                <flag>wxALL|wxALIGN_CENTRE_VERTICAL</flag>
-                <border>5</border>
-              </object>
-            </object>
-          </object>
-        </object>
-        <flag>wxALL|wxEXPAND</flag>
-        <border>5</border>
-      </object>
-      <object class="sizeritem">
-        <object class="wxStaticText">
           <label>Speedup Frame Skip</label>
           <font>
             <weight>bold</weight>
@@ -148,6 +73,81 @@
                     <item>28</item>
                     <item>29</item>
                     <item>30</item>
+                  </content>
+                  <size>40,-1d</size>
+                </object>
+                <flag>wxALL|wxALIGN_CENTRE_VERTICAL</flag>
+                <border>5</border>
+              </object>
+            </object>
+          </object>
+        </object>
+        <flag>wxALL|wxEXPAND</flag>
+        <border>5</border>
+      </object>
+      <object class="sizeritem">
+        <object class="wxStaticText">
+          <label>Speedup Throttle (WARNING: May not work if VSYNC is enabled.)</label>
+          <font>
+            <weight>bold</weight>
+          </font>
+        </object>
+        <flag>wxALL</flag>
+        <border>5</border>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxVERTICAL</orient>
+          <object class="sizeritem">
+            <flag>wxALL|wxEXPAND</flag>
+            <border>5</border>
+            <object class="wxBoxSizer">
+              <orient>wxHORIZONTAL</orient>
+              <object class="sizeritem">
+                <object class="wxStaticText">
+                  <label>% of normal:</label>
+                  <size>60,-1d</size>
+                </object>
+                <flag>wxALL|wxALIGN_CENTRE_VERTICAL</flag>
+                <border>5</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxSpinCtrl" name="SpeedupThrottle">
+                  <value>0</value>
+                  <min>0</min>
+                  <max>600</max>
+                </object>
+                <flag>wxALL|wxALIGN_CENTRE_VERTICAL</flag>
+                <border>5</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxChoice" name="SpeedupThrottleSel">
+                  <content>
+                    <item>Full Speed/No Limit</item>
+                    <item>25%</item>
+                    <item>50%</item>
+                    <item>75%</item>
+                    <item>100%</item>
+                    <item>125%</item>
+                    <item>150%</item>
+                    <item>175%</item>
+                    <item>200%</item>
+                    <item>225%</item>
+                    <item>250%</item>
+                    <item>275%</item>
+                    <item>300%</item>
+                    <item>325%</item>
+                    <item>350%</item>
+                    <item>375%</item>
+                    <item>400%</item>
+                    <item>425%</item>
+                    <item>450%</item>
+                    <item>475%</item>
+                    <item>500%</item>
+                    <item>525%</item>
+                    <item>550%</item>
+                    <item>575%</item>
+                    <item>600%</item>
                   </content>
                   <size>40,-1d</size>
                 </object>

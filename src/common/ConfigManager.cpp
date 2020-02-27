@@ -255,7 +255,7 @@ uint32_t autoFrameSkipLastTime;
 uint32_t movieLastJoypad;
 uint32_t movieNextJoypad;
 uint32_t throttle = 100;
-uint32_t speedup_throttle = 0;
+uint32_t speedup_throttle = 100;
 uint32_t speedup_frame_skip = 9;
 
 const char* preparedCheatCodes[MAX_CHEATS];
@@ -463,6 +463,10 @@ void ValidateConfig()
 		rewindTimer = 0;
 	if (autoFireMaxCount < 1)
 		autoFireMaxCount = 1;
+	if (speedup_frame_skip > 0)
+		speedup_throttle = 100;
+	if (speedup_throttle != 100)
+		speedup_frame_skip = 0;
 
 	if (rewindTimer) {
 		rewindMemory = (char *)malloc(REWIND_NUM*REWIND_SIZE);
@@ -553,7 +557,7 @@ void LoadConfig()
 	soundRecordDir = ReadPrefString("soundRecordDir");
 	threadPriority = ReadPref("priority", 2);
 	throttle = ReadPref("throttle", 100);
-        speedup_throttle = ReadPref("speedup_throttle", 0);
+        speedup_throttle = ReadPref("speedup_throttle", 100);
         speedup_frame_skip = ReadPref("speedup_frame_skip", 9);
 	tripleBuffering = ReadPref("tripleBuffering", 0);
 	useBios = ReadPrefHex("useBiosGBA");
